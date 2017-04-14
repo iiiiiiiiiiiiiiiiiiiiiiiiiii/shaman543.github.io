@@ -1,0 +1,205 @@
+html {
+	font-size:10px;
+}
+
+/* стили для главного экрана*/
+
+section#main {
+	height:100vh;
+	width: 100%;
+	background: url(../img/main.jpg) no-repeat center ;
+	background-size:cover;
+	color:#fff;
+	text-align:center;
+	background-attachment: fixed;
+	
+}
+
+#header {
+	position: absolute;
+    left: 50%;
+    transform: translateX(-50%)translateY(-50%);
+    top: 50%;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+#header h1 {
+	
+	font-size: 4rem;
+	text-transform:uppercase; /* все буквы заглавные*/
+	margin-bottom:1rem;
+}
+
+#header p {
+	font-size: 2rem;
+	line-height:1.6;
+	margin-top:3rem;
+
+}
+
+.main-line {
+	background-color:#fff;
+	height:2px;
+	width:100%;
+	display:block;
+	
+}
+
+.main-arrow{
+	width:3rem;
+	height:3rem;
+	border-right:1px solid #fff;
+	border-bottom:1px solid #fff;
+	transform: translateX(-50%) translateY(-50%) rotate(45deg);
+	position:absolute;
+	left:50%;
+	bottom:7%;
+
+}
+
+#portfolio {
+	padding-top: 6rem;
+	padding-bottom: 6rem;
+	
+	
+}
+
+.portfolio-header {
+	text-align:center;
+	font-weight:700;
+	font-size:3rem;
+	text-transform:absolute;
+	color:#333;
+
+}
+
+.portfolio-works{
+	width:1170px;
+	margin:0 auto;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	font-size: 0;
+}
+
+.portfolio-box{
+	display: inline-block;
+	width:33.33%;
+	text-align:center;
+
+}
+
+.portfolio-box img {
+	width:100%;
+	max-width:280px;
+}
+
+.portfolio-box a {
+	display:block;
+	text-align:center;
+	margin-top: 2rem;
+	text-decoration: none;
+	color:#555555;
+	font-size: 1.5rem;
+}
+
+
+.container {
+	width:1070px;
+	font-size: 0;
+
+
+
+
+}
+
+footer {
+	background-color:#646464;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	color:#fff;
+	text-align:center;
+
+	
+}
+
+
+
+.footer-info p , .social-links , .callback {
+	font-size: 1.5rem;
+	
+}
+
+.footer-info , .social-links , .callback {
+	display:inline-block;
+	width:33.33%;
+	vertical-align:block;
+
+}
+
+
+.footer-head{
+	font-size:2rem;
+	font-weight: 100%;
+	margin-bottom: .7rem;
+	font-weight:700;
+	text-transform:uppercase;
+	color:#fff;
+
+}
+
+.footer-name1 {
+	color:#fff;
+	font-size: 0.5rem;
+}
+
+.social-links a {
+	border:1px solid #fff;
+	display: inline-block;
+	width:6rem;
+	height:6rem;
+	vertical-align: middle;
+	border-radius:50%;
+	line-height: 7rem;
+}
+
+.btn {
+	display: inline-block;
+	padding: :15rem 2rem;
+	border:1px solid #fff;
+	text-decoration: none;
+	border-radius:45px;
+	font-size:2rem;
+	
+
+
+}
+
+.btn:hover {
+	color:#555;
+	background-color:#fff ;
+
+
+}
+
+
+/*Адаптация*/
+
+
+@media (max-width: 480px) {
+	html {
+		font-size: 5px;
+	}
+	.container {
+		width:100%;
+	}
+	.footer-info , .social-links , .callback .portfolio-box {
+		width:100%;
+
+	}
+}
+
+
+a {
+	color:#fff;
+}
